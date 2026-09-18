@@ -1,10 +1,10 @@
+import Header from './components/Header/Header.jsx'
+
+
 function App() {
 
-    return (
-        <>
-            <p>
-                Hello World
-            </p>
+    return (<>
+            <Header/>
         </>
     )
 }
