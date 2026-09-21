@@ -2,7 +2,7 @@
 
 function Hero() {
     return (
-        <section className="hero grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-10 items-center px-6 mx-15 py-15 border-b-2 border-(--line)">
+        <section id="hero" className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-10 items-center py-12 md:py-16 border-b-2 border-(--line)">
             <div className="flex flex-col items-start gap-4 min-w-0">
                 <p className="text-(--accent)">Développeur web fullstack</p>
 

@@ -1,0 +1,30 @@
+import {
+    SiHtml5,
+    SiCss,
+    SiJavascript,
+    SiReact,
+    SiPhp,
+    SiSymfony,
+    SiNodedotjs,
+    SiAngular,
+    SiMysql,
+    SiMongodb,
+    SiWordpress,
+    SiGit,
+} from "react-icons/si";
+
+export const SKILLS_LIST = [
+    { name: "HTML5", icon: SiHtml5 },
+    { name: "CSS", icon: SiCss },
+    { name: "JavaScript", icon: SiJavascript },
+    { name: "React", icon: SiReact },
+    { name: "React Native", icon: SiReact },
+    { name: "PHP", icon: SiPhp },
+    { name: "Symfony", icon: SiSymfony },
+    { name: "Node.js", icon: SiNodedotjs },
+    { name: "Angular", icon: SiAngular },
+    { name: "MySQL", icon: SiMysql },
+    { name: "MongoDB", icon: SiMongodb },
+    { name: "WordPress", icon: SiWordpress },
+    { name: "Git", icon: SiGit },
+];

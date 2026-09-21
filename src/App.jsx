@@ -1,14 +1,16 @@
-import Header from './components/Header.jsx'
-import Hero from './components/Hero.jsx'
-import Skills from './components/Skills.jsx'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Skills from './components/Skills'
 
 function App() {
-
-    return (<>
-            <Header/>
-            <Hero/>
-            <Skills/>
-        </>
+    return (
+        <div className="container mx-auto max-w-6xl px-6 md:px-12">
+            <Header />
+            <main>
+                <Hero />
+                <Skills />
+            </main>
+        </div>
     )
 }
 
