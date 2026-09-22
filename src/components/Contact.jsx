@@ -39,7 +39,7 @@ function Contact() {
                                 <h4 className="text-(--accent) text-xs font-semibold tracking-wider uppercase mb-2">
                                     Localisation
                                 </h4>
-                                <p className="text-(--text) text-base">Paris, France</p>
+                                <p className="text-(--text) text-base">Rouen, France</p>
                             </div>
                         </div>
 
